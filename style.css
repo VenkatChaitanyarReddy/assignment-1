@@ -151,17 +151,23 @@ color: white;
 }
 
 .top{
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
-  gap: 1000px;
+  gap: 540px;
+  width: 950px;
+  border-bottom:1px solid #868484;
 
+}
+
+.top h1{
+  margin: 10px 0;
+  margin-right: 10px;
 }
 
 .all{
   margin: auto 0;
-  margin-right: 100px;
   font-size: small;
 }
 
@@ -242,6 +248,7 @@ footer {
   color: #666;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid gray;
 }
 .footer-links{
   margin-top: 10px;
